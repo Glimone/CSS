@@ -14,32 +14,70 @@
         /* Ou seja, sempre que houver algumas  tags iguais ou talvez uma parte específica do código que você deseje ter uma formatação igual e específica, deverá usá-la.*/
 
         /* Conforme abaixo, você pode ver como é estruturado um class.*/
-        .cordeteste {color: rgb(237, 0, 229);}
-        .expclass {color:darkcyan;}
-        .title {color:red}
+        .cordeteste {
+            color: rgb(237, 0, 229);
+                    }
+       
+        .expclass {
+            color:darkcyan;
+                  }
+        
+        .title {
+            color:red
+               }
+
+        /*Já o ID, quando um for criado, só deve ser usado uma única vez. Sempre que necessitar utilizar mais de um, deve-se usar o class. O ID é usado de forme específica para uma coisa única dentro do site, por exemplo, um menu principal.*/
+
+        /*O ID é estruturado do seguinte modo abaixo:*/
+        #testeID {
+            background: palevioletred;
+                 } 
+
+        /*OBS: No conteúdo da página abaixo, pode-se ver as explicações com a fórmula de class e ID.*/
+            
+        #finalization { 
+                background-color: greenyellow;
+                      }
 
         </style>
+
     </head>
     <body>
-         <h1> Aprendendo sobre Class e IDs.</h1>
+         <h1 id="testeID"> Aprendendo sobre Class e IDs.</h1>
+         <hr>
 
          <h3 class="title">Class</h3>
          <p class="cordeteste">O "class" deve ser estruturado dentro de "head", e adicionado na tag que deseja formatar.</p>
 
-         <hr>
+         
 
          <p class="cordeteste">Para criar um class, deve definir desse modo:</p>
 
          <p class="expclass"> .(class name) { (atribute):(definition); }</p>
          <img src="Classhead.PNG">
-        <hr>
+        
 
         <p class="cordeteste">Depois, deve ser definido na tag, do seguinte modo:</p>
 
-         <p class="expclass"> &lt;p class="expclass"&gt; (Conteúdo) &lt;/p&gt; 	 </p>
+         <p class="expclass"> &lt;p class="expclass(Class name)"&gt; (Conteúdo) &lt;/p&gt; 	 </p>
          <img src="Classbody.PNG">
          <hr>
-         
+         <h3 class="title">ID</h3>
+         <p class="cordeteste">O "ID" é utilizado para um único fim na página, como por exemplo, um menu principal.</p>
+
+         <p class="cordeteste">Por conta disso, um ID criado deve ser utilizado uma única vez no site.</p>
+
+         <p class="cordeteste"> Caso tenha uma outra coisa única, como um mmenu lateral e um superior, deve-se criar um ID para cada um deles, por serem únicos.</p>
+
+         <p class="cordeteste">Definição de class:</p>
+         <p class="expclass">#(id name) { (atribute): (definition); } </p>
+         <img src="Idhead.PNG">
+         <p class="cordeteste">Depois, deve ser definido na tag, do seguinte modo:
+         </p>
+         <p class="expclass">&lt;h1 id="testeID(ID name)"&gt;(Conteúdo)&lt;/h1&gt;</p>
+         <img src="Idbody.PNG">
+         <hr>
         
+         <h1 id="finalization">Essa é a explicação de class e ID.</h1>
     </body>
 </html>
