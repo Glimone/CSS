@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fontes e cores</title>
+        <style type="text/Css">
+            /*Nessa aula, iremos abranger 2 coisas, sendo que uma delas, vimos de um modo semelhante, porém diferente, que são as cores. A outra se trata da formatação de fontes.*/
+
+            /*Como já usamos a definição de cores anteriormente, podemos vê-lá aplicada em um seletor, ID ou Class da forma padrão, definindo o atributo desejado que seja possível formatar a cor (Color:) e dizendo qual a cor desejada (Ex:Blue;).*/
+            #SimpleColor {
+                       background-color: blue;
+                        /*Outro exemplo, seria o color, border-color e etc.*/ 
+                         }
+
+            /*Porém, existe um outro modo de definir a cor, quando desejar uma mais específica, que não tenha noção de qual seja, utilizando Hexadecimal.*/
+
+            /*O Hexadecimal se baseia em um código, que, ao invés de escrever o nome da cor, você irá copiar esse código, que sempre iniciará com "#".*/
+
+            /*Em "Body", foi colocado o link para acessar a variedade de cores. Por exemplo, o próprio texto dessa página, foi definido com o Class abaixo que contém esse código.*/
+
+            /*Sobre a formatação das fontes,usamos especialmente 2 atributos:
+              Font-size - Usado para definir o tamanho da fonte (ex:15px)
+              Font-Family - Usado para definir o tipo de fonte, tendo diversas. 
+              
+              Também no conteúdo desse site, existe um link mostrando a variedade. 
+              
+              Abaixo, como pode ver, alteramos as fontes, conforme explicado acima.*/
+
+              /*OBS: Quando o font-family escolhido tiver mais de uma palavra em seu nome, deve ser usado " ".*/
+            #TitleHexaC { 
+                color: #D20303;
+                background-color: #CAD342;     
+                border-color: #000000;
+                border-width: 10px;
+                border-style: solid; 
+                border-radius: 12px; 
+                font-size: 25px;   
+                font-family: 'Bodoni MT', 'Trebuchet MS', monospace;	
+                        }
+
+            .explinks { 
+                color: #724444;
+                background-color: #9AA930;     
+                border-color: #E6E2F3;
+                border-width: 7px;
+                border-style: solid;
+                border-radius: 7px;  
+                font-size: 16px; 
+                font-family: Arial, 'Times New Roman', serif;  
+                      }
+
+            .Buttons {
+                background-color: #3211B8;
+                color: #FFFFFF;
+
+                     }
+
+            #Direitos { 
+                  background-color: #D20303;
+                  color: #FFFFFF;
+                  border-color: #000000;
+                  border-width: 7px;
+                  border-style: solid;
+                  border-radius: 7px;
+                  font-size: 20px;
+                  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                      }
+                
+
+        </style>
+    </head>
+    <body id="SimpleColor">
+        <div id="TitleHexaC">
+            <ul type="none" align="center">
+                <li><h1>Aula de color e font</h1></li>
+            </ul>
+
+            <ul type="none">
+                <li><h3>Aqui, você encontrará links para os exemplos de cores em Hexadecimal e tipos de Font-Family.</h3></li>
+            </ul>
+
+
+        </div>
+        <br>
+        <div class="explinks">
+            <ul type="none">
+                <li>
+                    <h3>Conforme dito, é possível que você realize uma definicação de cor hexadecimal, igualmente na imagem abaixo. Para realizar isso, substitua onde normalmente você coloca a cor da foto, pelo código.</h3>
+                </li>
+
+                <li><img src="Hexacolor.PNG"></li>
+
+                <li>Para verificar diversos códigos, clique no botão abaixo, você será encaminhado.</li>
+                <li align="left">
+                <br>
+                    <a href="https://htmlcolorcodes.com"> <input class="Buttons" type="Button" value="HexaDecimal colors"> </a>
+
+                </li>
+            </ul>
+
+        </div>
+        <br>
+        <div class="explinks">
+            <ul type="none">
+                <li>
+                    <h3>Referente a formatação de fontes, usamos 2 constantemente:</h3>
+                </li>
+                <li type="disc"> Font-Size: Usado para definir o tamanho da fonte</li> 
+                <br>
+                <li type="disc"> Font-Family: Usado para definir o tipo de fonte</li>
+                <br>
+                <li>Ex:</li>
+                <li><img src="Font_SF.PNG"></li> 
+                <li>Para verificar diversos tipos de fontes, clique no botão abaixo, você será encaminhado. </li>      
+                <li align="left">
+                <br>
+                    <a href="https://www.tutorialbrain.com/css_tutorial/css_font_family_list/"> <input class="Buttons" type="Button" value="Font-Family list"> </a>
+                </li>
+
+               
+            </ul>
+
+        </div>
+        <br>
+        <div id="Direitos" align="center">
+            <h3>Todos os direitos reservados</h3>
+        </div>
+    </body>
+</html>
