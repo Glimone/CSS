@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cor e imagens de fundo</title>
+    <style> 
+    
+    /*Nessa aula, iremos aprender a aplicação de cores e imagens no fundo da sua páginas, em todas, utilizando o Background.*/
+
+    /* Como sempre utilizamos antes, sabemos que podemos aplicar cores no fundo da página, utilizando o Background-color, conforme ele será aplicado em uma <div> através da primeira class "Conteúdo".
+        
+    Entretanto, existem  outras usos para o Background, por exemplo, para colocar imagens de fundo.*/
+
+    /*No exemplo abaixo, definimos a imagem que iria de fundo, dentro de um ID, que foi atribuído ao Body, como pode ser visto abaixo.
+    
+    Usamos o "Background-image", e definimos o valor como "url()", assim colocando o caminho da imagem dentro dos parênteses. */
+    #fundo {
+        background-image: url(Fundo_Azul.jpg);
+        /*Porém, ao definirmos a imagem, ela irá se repetir diversas vezes, então devemos utilizar o "background-repeat", e definir como "No-repeat", caso não desejemos que repita.*/
+        
+        background-repeat: no-repeat; /*Além do No-repeat, temos:: 
+            Repeat (Irá repetir sempre)
+            Repeat-x (Irá repetir na vertical)
+            Repeat-Y (Irá repetir na horizontal)*/
+            
+           }
+
+    </style>
+</head>
+<body id="fundo">
+    
+</body>
+</html>
