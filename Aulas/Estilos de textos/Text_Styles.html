@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Estilos de textos</title>
+        <style type="text/css">
+            /*Nessa aula, iremos abranger os estilos de textos. Anteriormente, eles já foram aplicados em HTML, porém, agora, vamos aprender a aplicá-lo diretamente em CSS.
+            
+            Os estilos vistos em HTML são:
+            
+            <b>, <strong> - (Bold; Negrito)
+            <em>, <i> - (Itálic; Itálico)
+            <u> (Underline) 
+            <strike> (Errado) */
+
+           
+            
+            body { 
+                background-color: #C99F03;
+                 }
+
+            #Menu { 
+                background-color: #323237; 
+                color: #8EE88E;
+                border-color: #6854D9;
+                border-width: 10px;
+                border-style: solid;
+                border-radius: 10px;
+                font-size: 15px;
+                  }
+            
+            .conteudo { 
+                background-color: #0887BE; 
+                color: black;
+                border-color: #000000;
+                border-width: 7px;
+                border-style: solid;
+                border-radius: 10px;
+                font-size: 15;
+                      }
+
+            .subtitles {
+                color: red;
+                       }
+            
+             /* O bold deve ser aplicado utilizando o font-weight, posteriormente definindo como "bold". 
+            "Font weight" significa "Peso da fonte", ou seja, ele faz referência ao quão escuro ela é. 
+            Além do bold, é possível utilizar na definição uma númeração de 0 até 900, quanto maior esse número, mais negrito irá ficar.*/
+            #bold {
+                font-weight: bold;
+                /*font-weight: 900;*/
+                  }
+
+            /*O Italic deve ser aplicado utilizando o font-style, posteriormente definindo como "Italic".*/
+            #italic {
+                font-style: italic;
+                    }
+
+            /*O Underline deve ser aplicado com o "Text decoration" e definido como "Underline".*/
+            #underline {
+                text-decoration: underline;
+                       }
+
+            /*O Overline, que seria o oposto do under, se aplica do mesmo modo.*/
+            #Overline {
+                text-decoration: overline
+                      }
+            
+            /*O Strike usa a mesma tag, "Text-decoration", entretanto, é definido com "line-through", que significa 
+            "Linha no meio".*/
+            #strike {
+                text-decoration: line-through;
+                    }
+
+            .button {
+                background-color: #E90ACE;
+                color: black;
+                    }
+
+            #Direitos {
+                background-color: #2BC10D;
+                color: white;
+                border-color: black;
+                border-width: 7px;
+                border-style: solid;
+                border-radius: 10px;
+                      }
+            
+        </style>
+
+    </head>
+    <body>
+        <div id="Menu">
+            <h1 align="center">Aula de estilo de textos</h1>
+            <ul type="none">
+                <li>Essa aula é destinada ao uso de estilos de textos, vistos anteriormente em HTML, porém, agora aplicados em CSS.</li> 
+            </ul> 
+        </div>
+        <br>
+        <div class="conteudo">
+           <h3 class="subtitles"> &nbsp;	Os estilos de textos que serão aplicados aqui são: </h3>
+            <ul type="Disc">
+                <li> &lt;b&gt;, &lt;strong&gt; - (Bold; Negrito) </li>
+                <li> &lt;em&gt;, &lt;i&gt; - (Itálic; Itálico) </li>
+                <li> &lt;u&gt; - (Underline) </li>
+                <li> &lt;Strike&gt; - (Linha no meio dos caracteres; erro) </li>
+            </ul>
+
+           <p> &nbsp; Porém, aqui eles serão aplicados como atributos de CSS, então, essas tags não serão usadas. Elas devem ser usadas quando desejar individualizar uma palavra ou outra. 
+           </p> 
+        
+        </div>
+        <br>
+        <div class="conteudo">
+            <h3 class="subtitles"> &nbsp; Bold</h3>
+            <ul type="none">
+                <li>Bold tem como função, deixar a palavra em negrito.</li> 
+                <br>
+                <li> No CSS, deve ser aplicado dentro das chaves o atributo abaixo:</li>
+                
+                <li id="bold"> font-weight: bold;</li>
+                <br>
+                <li> Além do modo citado, também é possível definir o nível de negrito, basta colocar de 0 até 900.</li>
+                <li> <img src="Font_Weight.PNG"> </li>
+            </ul>
+
+
+        </div>
+        <br>
+        <div class="conteudo">
+            <h3 class="subtitles">&nbsp; Italic</h3>
+            <ul type="none">
+                <li>Itálic tem como função, deixar a palavra com itálico.</li>
+                <br> 
+                <li>No CSS, deve ser aplicado dentro das chaves o atributo abaixo:</li>
+                <li id="italic"> Font-Style: Italic;</li>
+                <br>
+                <li> <img src="Font_Italic.PNG"> </li>
+            </ul>
+
+        </div>
+        <br>
+        <div class="conteudo">
+            <h3 class="subtitles">&nbsp; Underline</h3>
+            <ul type="none">
+                <li>Underline tem como função, sublinhar uma palavra.</li>
+                <br> 
+                <li>No CSS, deve ser aplicado dentro das chaves o atributo abaixo:</li>
+                <li id="underline"> text-decoration: Underline;</li>
+                <br>
+                <li> <img src="text_Underline.PNG"> </li>
+                <br>
+                <li> Além do underline, que o prefixo <u>Under</u>line, quer dizer abaixo, temos o <u>Over</u>line, que quer dizer, acima. conforme o código já com a aplicação:</li>
+                <br>
+                <li id="Overline"> text-decoration: Overline;</li>
+        </div>
+        <br>
+        <div class="conteudo">
+            <h3 class="subtitles">&nbsp; Strike</h3>
+            <ul type="none">
+                <li>Strike tem como função, sublinhar uma palavra errada.</li>
+                <br> 
+                <li> Ela é aplicada com o mesmo atributo do underline, entretanto, a definição é essa abaixo, que significa "Linha no meio".</li>
+                <br>
+                <li>No CSS, deve ser aplicado dentro das chaves o atributo abaixo:</li>
+                <li id="strike"> text-decoration: line-through;</li>
+                <br>
+                <li> <img src="Text_Linethrough.PNG"> </li>
+        </div>
+        <br>
+        <div>
+            <ul type="none">
+                <li>Essas são algumas das tags de CSS que aplicam fontes. Para ver outras diversas, clique no botão abaixo.</li>
+                <br>
+                <li > <a href="https://www.w3schools.com/css/css_font.asp" > <input  class="button" type="button"   value="Types fonts"> </a>  </li>
+                <br> 
+
+        </div>
+        <br>
+
+        <div id="Direitos">
+             <h4 align="center">Todos os direitos reservados</h4>
+        </div>
+        
+    </body>
+</html>
