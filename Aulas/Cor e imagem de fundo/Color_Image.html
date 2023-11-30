@@ -1,34 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cor e imagens de fundo</title>
-    <style> 
-    
-    /*Nessa aula, iremos aprender a aplicação de cores e imagens no fundo da sua páginas, em todas, utilizando o Background.*/
-
-    /* Como sempre utilizamos antes, sabemos que podemos aplicar cores no fundo da página, utilizando o Background-color, conforme ele será aplicado em uma <div> através da primeira class "Conteúdo".
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cor e imagens de fundo</title>
+        <style> 
         
-    Entretanto, existem  outras usos para o Background, por exemplo, para colocar imagens de fundo.*/
+        /*Nessa aula, iremos aprender a aplicação de cores e imagens no fundo da sua páginas, em todas, utilizando o Background.*/
 
-    /*No exemplo abaixo, definimos a imagem que iria de fundo, dentro de um ID, que foi atribuído ao Body, como pode ser visto abaixo.
-    
-    Usamos o "Background-image", e definimos o valor como "url()", assim colocando o caminho da imagem dentro dos parênteses. */
-    #fundo {
-        background-image: url(Fundo_Azul.jpg);
-        /*Porém, ao definirmos a imagem, ela irá se repetir diversas vezes, então devemos utilizar o "background-repeat", e definir como "No-repeat", caso não desejemos que repita.*/
-        
-        background-repeat: no-repeat; /*Além do No-repeat, temos:: 
-            Repeat (Irá repetir sempre)
-            Repeat-x (Irá repetir na vertical)
-            Repeat-Y (Irá repetir na horizontal)*/
+        /* Como sempre utilizamos antes, sabemos que podemos aplicar cores no fundo da página, utilizando o Background-color, conforme ele será aplicado em uma <div> através da primeira class "Conteúdo".
             
-           }
+        Entretanto, existem  outras usos para o Background, por exemplo, para colocar imagens de fundo.*/
 
-    </style>
-</head>
-<body id="fundo">
+        /*No exemplo abaixo, definimos a imagem que iria de fundo, dentro de um ID, que foi atribuído ao Body, como pode ser visto abaixo.
+        
+        Usamos o "Background-image", e definimos o valor como "url()", assim colocando o caminho da imagem dentro dos parênteses. */
+        #fundo {
+            background-image: url(Fundo_Azul.jpg);
+            background-color: #2A5199;
+            background-repeat: no-repeat; 
+            background-position: Center , top;
+            
+            /*Porém, ao definirmos a imagem, ela irá se repetir diversas vezes, então devemos utilizar o "background-repeat", e definir como "No-repeat", caso não desejemos que repita.*/
+            
+            /*Além do No-repeat, temos:: 
+                Repeat (Irá repetir sempre)
+                Repeat-x (Irá repetir na vertical)
+                Repeat-Y (Irá repetir na horizontal)*/
+            
+            /*Background attachment é utilizado para definirmos como a imagem irá acompanhar a rolagem e o conteúdo.*/
+            background-attachment: scroll; /*Além do "fixed", um outro valor muito utilizado é o "Scroll", que ao realizar a rolagem, a imagem irá acompanhar e se adequar a quantidade de conteúdo.*/
+            
+            /*Ao utilizarmos o Background-size: cover;, definimos ao browser que queremos que a imagem pegue toda a janela da página (Ou do container pai), assim ficando 100%.*/
+            background-size: cover; /*Além do cover, temos  outros valores, como o "Contain", que define a imagem no máximo possível, tendo como limite o momento em que ela não será mais mostrada.*/
+            }
+
+            /*Resumos:*/
+
+            /*background-color: red;*/
+            /*background-image: url();*/
+            /*background-repeat: Repeat, No-repeat, Repeat-x, Repeat-y*/
+            /*background-position: Vertical: Left, center and right; Horizon: top, center, buttom*/
+            /*background-attachment: Fixed or scroll*/
+            /*background-size: Cover,contain... */
+        
+        #menu {
+            background-image: url(Fundo_Menu.avif);
+            background-size: cover;
+            color: #E7C898;
+            border-color: #80B2E7;
+            border-radius: 10px;
+            border-width: 7px;
+            border-style:solid;
+            font-size: 25px;
+            font-family: cursive, serif;
+               }
+            
+        .titles {
+            font-size: 30px;
+            color: white;
+              }
+
+        #Sumary { 
+            background-image: url(Fundo_Menu.avif);
+            background-size: cover;
+            color: #E7C898;
+            border-color: black #80B2E7 black;
+            border-width: 7px 0px 7px 00px;
+            border-style:solid;
+            
+                }
+        
+        .subtitle {
+            font-size: 15px;
+            color: red;
+            
+
+                  }
+        .images {
+            width:490px;
+            height: 37px;
+                }
+
+        #fim {
+            color: #0C3C3D;
+            background-image: url(Fundo_AzulC.jpg);
+            background-size: cover;
+            border-radius: 10px;
+            border-width: 7px;
+            border-style: solid;
+            border-color: black;
+            font-size: 25px;
+            font-family: cursive, serif;
+             }
+
+        #button {
+            width: 200px; 
+            height:50px ; 
+            font-family: cursive; 
+            color: red; 
+            background-color: blue;
+                }
+             
+        #direitos {
+            color: black;
+            font-size: 35px;
+            font-family: serif;
+
+                  }
+        
     
-</body>
+        </style>
+    </head>
+
+    <body id="fundo">
+        <div id="menu">
+            <p align="center" class="titles"> Aula de cores e imagens de fundo </p>
+            <ul type="none">
+                <li>Nessa aula, iremos nos aprofundar um pouco na definição do design da página, mexendo com a cor e imagem de fundo da página, usando diversos tipos dos famosos "Backgrounds".</li>
+
+            </ul>
+        
+            <div id="Sumary">
+                <br>
+                <p align="center" class="titles">Tipos de Background:</p>
+                 <ul type="none" ">
+                    <li>Background-Image - Utilizado para definir uma imagem de fundo do site ou de alguma parte do mesmo.</li>
+                    <li> <img src="B_Image.PNG"> </li>
+                        <ul type="disc" class="subtitle">
+                            <li> Deve-se usar a atribuição de "Url()" e colocar o caminho da imagem.</li>       
+                        </ul>
+            
+                    <br>
+                    <hr>   
+
+                    <li>Background-Color - Utilizado para definir uma cor de fundo do site ou de alguma parte desejada, assim como o image.</li>
+                    <li> <img src="B_Color.PNG" class="images"> </li>
+                        
+                        <ul type="disc" class="subtitle">
+                            <li>Você pode selecionar o código hexadecimal de uma cor específica clicando <a href="https://htmlcolorcodes.com">aqui</a>. </li>
+                            <li >OBS: É possível utilizar o image e o color juntos, na mesma página. </li>
+                        </ul>
+            
+                    <br>
+                    <hr>
+
+                    <li>Background-position - Com ele, você definirá a posição da imagem de fundo na página.</li>
+                    <li> <img src="B_position.PNG" class="images"> </li>
+
+                        <ul type="disc" class="subtitle">
+                            <li> Possui 2 tipos de atributos, o vertical e o horizontal.</li>
+                            <li> Vertical - Define a posição em vertical (Linha), tem como valores: <u>Left, center e right.</u></li>
+                            <li> Horizontal - Define a posição em Horizontal (Coluna), tem como valores: <u>Top, center e Buttom.</u></li>
+                        </ul>
+                    <br>
+                    <hr>
+
+                    <li>Background-attachment - Utilizado para definir como a imagem de fundo irá se comportar ao rolar a página.</li>
+                    <li> <img src="B_attachment.PNG" class="images"> </li>
+                        <ul type="disc" class="subtitle">
+                        <li> Os 2 valores mais utilizados são <u>fixed</u> (Imagem fica fixa) e <u>scroll</u> (imagem rola junto com a página). </li>
+                        </ul>
+                    <br>
+                    <hr>
+
+                    <li>Background-repeat - Define se a imagem será repetitiva no site.</li>
+                    <li> <img src="B_repeat.PNG" class="images"> </li>
+                        <ul type="disc" class="subtitle">
+                            <li>Possui 4 valores, sendo <u>"Repeat"</u> o padrão. Os outros são:</li>
+                            <li>No-repeat: Define que a imagem não deve ser repetida nenhuma vez.</li>
+                            <li>Repeat-X: Define que a imagem deve ser repetida apenas na vertical.</li>
+                            <li>Repeat-Y: Define que a imagem deve ser repetida apenas na horizontal.</li>
+                        </ul>
+                    <br>
+                    <hr>
+
+                    <li>Background-size - Usado para definir o tamanho da imagem de fundo.</li>
+                    <li> <img src="B_Size.PNG" class="images"> </li>
+                        <ul type="disc" class="subtitle">
+                            <li>Pode ser usado com dois valores: <u>cover</u> (Imagem tomará o fundo todo) e <u>contain</u> (Será aumentada até o limite de que ela não estique).</li> 
+                            <li>Também pode ser definido em pixels. o primeiro valor equivale ao width e o segundo ao height. </li>
+                            <li>Ex: Background-size: <u>200px 450px;</u></li>
+                        </ul>
+
+             </div>
+         
+        </div>
+        
+        <br>
+
+        <div id="fim">
+            <p>&nbsp;	Como pode ver, existem diversos tipos de <u>backgrounds</u>. Clique no botão abaixo para ver outros tipos e valores.</p>
+            <ul type="none">
+                <li>  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-size"> <input id="button" type="button" value="Backgrounds"> </a></li>
+                <li align="center" id="direitos"> ©Todos os direitos reservados</li>
+            </ul>
+
+
+
+        </div>
+
+
+        
+        
+    </body>
 </html>
