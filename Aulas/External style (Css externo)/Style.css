@@ -1,0 +1,54 @@
+#fundo {
+    background-image: url(Fundo.jpg);
+    background-size: cover;
+    background-color: #DE32EC;
+    background-attachment: fixed;
+       }
+
+.titulos {
+    color: #821C69;
+    font-size: 30px;
+    text-align: center;
+         }
+         
+
+#inicio {
+    background-image: url(Menu.jpg);
+    background-size: cover;
+    color: #CD092A;
+    border-width: 12px;
+    border-style: ridge;
+    border-radius: 7px;
+    border-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+
+.topic {
+    color: #FF0202;
+    font-size: 15px;
+    font-family: Garamond;
+       }
+
+.conteudo {
+    background-image: url(conteudos.jpg);
+    background-size: cover;
+    color: #302E89;
+    border-color: aqua;
+    border-width: 0px  10px 0px 10px;
+    border-style: ridge;
+    font-family: fantasy;
+          }
+
+.imagem {
+    width: 350px;
+    height: 40px;
+        }
+
+#fim{
+    background-image: url(Finalização.jpg);
+    background-color: aqua;
+    border-color: #302E89;
+    border-width:  10px 10px 10px 10px;
+    border-style: ridge;
+    font-family: Arial, Helvetica, sans-serif;
+    }

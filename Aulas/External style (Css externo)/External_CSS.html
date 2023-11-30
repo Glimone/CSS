@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css externo</title>
+    <link rel="stylesheet" type="text/Css" href="Style.css">
+    <style>
+        /*Nessa aula, iremos aprender a utilizar Css externo, já agilizamos que a tag "Style" não é necessário no Css externo, porém, ele foi adicionado aqui para colocarmos comentários.*/
+
+        /*A aplicação de CSS externo é bem simples. Basta criar um arquivo com ".css" no final, e fazer a mesma formatação que é realizado no internal style, colocando o ID, class e seletores normalmente lá e definindo eles nas tags aqui.*/
+
+        /*Entretanto, é necessário utilizar uma tag aqui em "head", para fazer essa comunicação de HTML e CSS, a tag é:        
+        <link rel="stylesheet" type="text/Css" href="">
+        Em tradução, "Link rel" seria "Link relacionado", então, definimos que o link que será realizado é um stylesheet, ou melhor, folha de estilo.
+        
+        Definimos do mesmo modo o type como text/css
+        
+        E o href="" é onde você colocará o caminho para o arquivo em CSS. Depois disso, basta formatar a sua página por lá e aplicar aqui.
+        
+        O uso do CSS externo é essencial pois, em caso de mais de uma página com a mesma formatação ou semelhjante, agiliza o processo.*/
+    </style>
+</head>
+<body id="fundo">
+    <div id="inicio">
+        <br>
+       <p align="center"> <a href="../Inline Style/Inline_style.html">Inline Style</a> |<a href="../Internal Style (Seletores)/Internal_Inline(Seletores).html">Internal Style</a>  | <a href="External_CSS.html"> External Style</a> | <a href="Style.css">Código Css externo</a></p> 
+
+        <p class="titulos"> Aula de CSS externo</p>
+        <ul type="None">
+            <li>Essa aula é destinada ao uso de CSS externo, com um arquivo Html e Css se comunicando.</li>
+        </ul>
+
+        <div class="conteudo">
+            <ul type="none">    
+                <li>Anteriormente, vimos 2 tipos de css:</li>
+                <br>
+                <li>Inline Style</li>
+                <img src="inl_style.PNG" class="imagem">
+                <ul type="disc" class="topic">
+                    <li>Usado em cada linha e tag desejada dentro do HTML.</li>
+                </ul>
+                <br>
+                <li>Internal style Sheet</li>
+                <img src="Int_style.PNG" class="imagem">
+                <ul type="disc" class="topic" >
+                
+                    <li>Usado dentro do documento de HTML, aplicado a tag &lt;Style&gt;	dentro de head.</li>
+                    <li>Aplicado seletores, class e ID, dentro de &lt;Style&gt;, definido a formatação e aplicado o ID nas estrutura da página.</li>    
+                    <img src="Ap_intstyle.PNG" width="350" height="40">
+                </ul>
+                <br>
+                <hr>
+                <li>Entretanto, temos um mais importante e utilizado, o <u>External Style Sheet</u>, que é essencial para a formatação em sites com mais de uma página.</li>
+                <br>
+                <li>Primeiro, é necessário criar um documento css, onde iremos realizar a formatação.</li>
+                <img src="StyleCss.PNG" class="imagem">
+                <ul type="disc" class="topic">
+                    <li>Ao criar, deve-se definir o nome com ".css".</li>
+                </ul>
+                <br>
+                <li>Após isso, você aplicará a seguinte tag em head:</li>
+                <img src="link.PNG" class="imagem">
+                <ul  type="disc" class="topic">
+                    <li>Em "Href", você deve colocar o caminho do arquivo Css e seu nome por último, isso fará que haja a ligação entre o HTML e CSS.</li>
+                </ul>
+                <br>
+                <li>Agora, basta realizar a formatação normalmente no arquivo CSS e atribuir os seletores à estrutura do Html.</li>
+                <img src="Formatação_Css.PNG">
+                <ul type="disc" class="topic">
+                    <li>Caso deseje, pode ver os outros arquivos de aprendizado, clicando no menu no inicio da tela.</li>
+                </ul>
+            </ul>   
+
+        </div>
+        <div id="fim">
+            <ul type="none">
+            
+            <li>Para mais detalhes sobre <u>Inline style</u> e <u>Internal style</u>, acesse as <a href="https://github.com/Glimone/CSS/tree/main/Aulas">aulas anteriores</a>.</li>
+            </ul>
+
+        <p style="font-family: cursive; font-size: 15px; color: green;" align="center">Gabriel Limone - Todos os direitos reservados©</p>
+
+        </div>
+    </div>
+    
+</body>
+</html>
