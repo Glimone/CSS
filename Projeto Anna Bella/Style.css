@@ -14,6 +14,11 @@
     font-family: Helvetica;
     background-size: cover;
     padding: 15px;
+    /*Como pode ser visto, realizamos a aplicação de Padding pela primeira vez.
+    
+    Padding serve pra definir uma distância das bordas ao conteúdo da div. Além de ter o próprio padding, que define essa distância, é possível realizar essa formatação em cada extremo, left, center, right, top e bottom, basta aplicar o padding-(posição que deseja), depois, definir os pixels. 
+    
+    "Padding" significa "preenchimento".*/
       }
 
   a   {
