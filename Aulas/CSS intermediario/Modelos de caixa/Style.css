@@ -1,0 +1,73 @@
+#Back {
+    background-image:url(Imagens/Fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: red;
+      }
+
+#Principal {
+   
+    background-image: url(Imagens/Principal.jpg);
+    background-size: cover;
+   
+    margin-left: 15%; 
+    margin-right:20%;
+    margin-top: 50px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    text-align: center;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           }
+
+.Conteudo {
+    background-image: url(Imagens/Conteudos.jpg);
+    background-size: cover;
+    
+    width: 103.8%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    margin-bottom: -15px;
+    text-align: left;
+    width: 104.050%;
+    
+    color: #3B2803;
+    font-size: 20px;
+
+          }           
+
+.imgs {
+    width: 247px;
+    height: 29px;
+      }
+
+.Stitulo {
+    color: #593170;
+    font-family:cursive;
+    font-size: 30px;
+    font-weight: 1;
+         }
+
+#fim {
+    background-image: url(Imagens/Final.jpg);
+    background-size: cover;
+    margin-left: 15%; 
+    margin-right:20%;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    font-family: fantasy;
+    Color: #0F2D02;
+     }
+
+#direitos {
+    text-align: Center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+          }
