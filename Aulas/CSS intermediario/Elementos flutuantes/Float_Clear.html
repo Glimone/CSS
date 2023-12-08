@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float and clear</title>
+    <link rel="stylesheet" type="text/Css" href="style.css">
+
+</head>
+<body id="Fundo">
+    <div id="Menu">
+        Elementos flutuantes
+    </div>
+
+    <div id="Sumario"> <!--Inicio Sumario-->
+        <p>Nessa aula, iremos abranger os elementos flutuantes, utilizando 2 novos atributos:
+        <ul>
+            <li>Float</li>
+            <li>Clear</li>
+        </ul>
+
+    </div> <!--Fim Sumario-->
+
+    <div id="fconteudo"> <!--Inicio div da imagem de fundo-->
+            
+        <span class="Conteudo"> <!--Inicio explicação de float-->
+            <p>Float - Utilizado para fazer com que um containder flutue sobre o nível original do browser.</p>
+        
+            <ul type="none"  class="Details">
+            <li >O conteúdo do browser irá agir como se o conteúdo em float não existisse, ficando por baixo.</li>
+            <br>
+            <li>Values: <u>Left e right</u> </li>
+            </ul>
+        </span> <!--Fim explicação de float-->
+
+        <span class="Conteudo"> <!--Inicio explicação de clear-->
+            <p>Clear - Utilizado para definir se os elemento da página deve ficar ao lado dos elementos flutuantes.</p>
+            <ul type="none" class="Details"> 
+                <li>Ao definir o clear, o conteúdo que iria ficar ao lado dos flutuantes, pode ser movido para 3 valores:</li>
+                <br>
+                <li> <u>Right, left e both</u> </li>
+            </ul>
+
+        </span> <!--Fim explicação de clear-->
+
+        <div class="clear"></div> <!--Aqui, utilizamos apenas o clear em uma div dentro da geral e ao lado das outras que possuem o float, pois é necessário para fazer a limpeza e considerar que a imagem chegue até onde está limpo, que seria aqui. -->
+
+    </div> <!--Fim div da imagem de fundo-->
+
+
+    <div id="fim"> <!--Inicio rodapé-->
+        <p>Para mais informações sobre elementos flutuantes, clique <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/clear">aqui</a>.</p>
+    
+
+        <h3 align="center">Gabriel Limone - Todos os direitos reservados ©</h3>
+    </div> <!--Fim rodapé-->
+    
+</body>
+</html>

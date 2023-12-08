@@ -1,0 +1,74 @@
+#Fundo  {
+    background-image: url(Imagens/Fundo.webp);
+    background-size: 800px;
+    background-color: black;
+    background-attachment: scroll;
+    
+}
+
+#Menu {
+    background-image: url(Imagens/Menu.jpg);
+    background-size: 800px;
+    text-align: center;
+    padding: 15px;
+    margin: 25px 25px 0px;
+    font-family:fantasy;
+    font-size: 30px;
+    color: #DB1323;
+      }
+
+#Sumario {
+    background-image: url(Imagens/Sumary.jpg);
+    background-size: 800px;
+    padding: 15px 15px 15px 30px;
+    margin: 4px 25px 0px 25px;
+    font-family:cursive;
+    font-size: 20px;
+    color: #022B25;
+         }
+
+#fconteudo {
+    background-image: url(Imagens/Conteudo.avif);
+    background-size: 800px;
+    padding: 15px 15px 15px 30px;
+    margin: 4px 25px 0px 25px;
+           }
+
+.clear {
+    clear: both;
+       }
+
+.Conteudo {
+    background-image: url(Imagens/Conteudo.avif);
+    background-size: 800px;
+    
+    padding: 15px 27px 0px 15px;
+    Margin: 8px 0px 5px 0px;
+    width:500px;
+    height: 150px;
+    float: Left;
+    color: #B2F4EA; 
+    border: blue ridge;
+    border-width: 4px 0px 4px 0px;
+          }
+
+
+
+
+.Details {
+    font-size: 12px;
+    color: #F56405;
+         }
+
+#fim {
+    background-image: url(Imagens/Final.jpg);
+    background-size: 800px;
+    clear: left;
+    margin: 0px 25px 100px 25px;
+    padding: 15px 25px 5px 30px;
+    color: black
+     }
+
+a  {
+    color: red;
+   }
