@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Block e inline</title>
+        <link rel="stylesheet" type="text/css" href="Style.css">
+    </head>
+    <body id="Fundo">
+        <div id="Geral"> <!--Inicio conteudo geral-->
+            
+            <div id="Titulo"> <!--Inicio titulo-->
+                <p>Aula de posicionamento com <u>Block</u> e <u>Inline</u></p>    
+            </div> <!--Fim titulo-->
+
+            <div> <!--Inicio introdução-->
+                <p>Nessa aula, iremos ver sobre a definição de posicionamento natural dos elementos</p>
+                <p> Sendo as 3 definições: <u>Block</u>, <u>Inline</u> e <u>Inline-Block</u>.</p>
+            </div> <!--Fim introdução-->
+
+            <div class="Elementos"> <!--Inicio block-->
+                <div class="Subtitle"> 
+                    Block
+                </div>
+                <div>
+                    <p>"Block" são elementos aplicados na vertical, sua tradução quer dizer "Bloco".</p>
+                    <p>Exemplos:</p>
+                    <p class="Legendas">&lt;Div&gt; | &lt;H1&gt; | &lt;p&gt;</p>
+                </div>
+                
+            </div> <!--Fim block-->
+
+
+            <div class="Elementos"> <!--Inicio Inline-->
+                <div class="Subtitle"> 
+                    Inline
+                </div>
+
+                <div>
+                    <p>"Inline" são elementos aplicados na vertical, sua tradução quer dizer "Bloco".</p>
+                    <p>Exemplos:</p>
+                    <p class="Legendas">&lt;Span&gt; | &lt;a&gt; | &lt;b&gt;</p>
+                </div>
+            </div>   <!--Fim Inline-->
+            <div class="clear"></div>
+
+            <div>
+                Porém, é possível tirar esse comportamento natural dos elementos, utilizando o atributo CSS <u>Display</u>.
+
+                <p>O display possui como valores, as 3 definições citadas: <u>Block</u>, <u>Inline</u> e <u>Inline-Block</u>. </p>
+
+            </div>
+
+            <div class="Elementos" style="width: 200px;"> <!--Inicio Display:block-->
+                <div class="Subtitle"> 
+                    Display: Block
+                </div>
+                <div>
+                    <p>Torna os elementos do tipo inline em tipo block, </p>
+                </div>
+
+                <span class="Dblock">
+                    Esse texto é feito por um &lt;Span&gt;
+                </span>
+                <br>
+                <span class="Dblock">
+                    Esse também, e estamos usando display:block; em ambos para mudar.
+
+                </span>
+                <a href="Imagens/Displayblock.PNG"></a>                
+            </div> <!--Fim Display: Block-->
+
+            <div class="Elementos" style="width: 200px;"> <!--Inicio Display:Inline-->
+                <div class="Subtitle"> 
+                    Display: Inline
+                </div>
+
+                <div>
+                    <p>Torna os elementos do tipo block em inline.</p>
+                </div>
+
+                <div class="Dinline">
+                    Nesse texto usamos &lt;Div&gt;    
+                </div>
+
+                <div class="Dinline"> | Nesse usamos outra div, "|" é pra separar o texto, que está junto por ser inline, não se da espaço, só se optar.</div>
+                
+            </div> <!--Fim Display: Inline-->
+
+            <div class="Elementos" style="width: 200px;"> <!--Inicio Display:Inline-Block -->
+                <div class="Subtitle"> 
+                    Display: Inline-Block
+                </div>
+                <div>
+                    <div class="Dib">Torna qualquer elementos em inline e quando não houver mais espaço, quebra a linha como block.</div>
+
+                    <div class="Dib"> (Veja que é um novo paragráfo aqui) Quando não há mais espaço na linha, ele age como block.</div>
+
+                    <div class="Dib"></div>
+                    
+                </div>
+            </div> <!--Fim Display: Inline-Block -->
+
+            <div class="clear" ></div>
+            <div style="margin: 10px;">OBS: Caso haja algum elemento dentro do elemento que está aplicando o display, o display não irá considerar esse elemento e o mesmo terá o comportamento natural.
+            <br>
+            <br>
+            Para que seja aplicado a mudança, também deve-se aplicar o mesmo display dentro desse elemento.   
+            <p> Para mais informações, clique <a href="https://www.w3schools.com/css/css_inline-block.asp">aqui</a>.</p>
+            </div>
+        </div> <!--Fim conteudo geral-->
+
+        <div style="text-align: center; margin: 5px;">Gabriel Limone - Todos os direitos reservados</div>
+    </body>
+</html>

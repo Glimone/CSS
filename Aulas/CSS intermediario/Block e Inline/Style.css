@@ -1,0 +1,59 @@
+#Fundo {
+    background-color: #E65A05;
+    color: white;
+    font-size: 20px;
+    font-family: cursive;    
+       }
+
+#Geral {
+    background-color: black;
+    padding: 10px 0px 10px 15px;
+       }
+
+#Titulo {
+    font-size: 30px;
+    font-family: fantasy;
+    color: gold;
+    text-align: Center;
+        }
+
+.Elementos {
+    background-color: #083780;
+    padding: 10px 0px 10px 15px;
+    float: left;
+    width: 400px;
+    border: green 6px ridge;
+    margin: 0px 10px 10px 100px;
+           }
+
+.Subtitle {
+    color: #E83030;
+    text-decoration: underline;
+    
+          }
+
+.Legendas {
+    color: #B330E8;
+          }
+
+.Dblock {
+    display: Block;
+    color: #B330E8;
+        }
+
+.Dinline {
+    display: inline;
+    color: #B330E8;
+         }
+
+.Dib {
+    display: inline-block;
+    color: #B330E8;
+     }
+
+
+.clear {
+    clear: both;
+       }
+
+    
