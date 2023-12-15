@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatico e relativo</title>
+    <link rel="stylesheet" type="text/Css" href="Style.css">
+</head>
+<body>
+    <div id="General"> <!--Inicio geral-->
+
+        <div id="Menu"> <!--Inicio menu-->
+            Posicionamento - Estático e relativo 
+        </div> <!--Fim menu-->
+
+        <hr>
+
+        <div style="border-color: blue; border-style: ridge; border-width: 0px 0px 5px 0px; padding: 0px 0px 30px 0px;">  <!--Inicio introdução"-->
+            
+            <p>Nessa aula, iremos explorar o posicionamento dos elementos em 4 tipos: <u>Estático</u>, <u>relativo</u>, <u>Absoluto</u> e <u>Fixo</u>.
+
+            <p>A definição do posicionamento do elemento é definido com o atributo <u>Position</u>, tendo os 4 valores citados anteriormente.</p>
+
+            <img src="Imagens/Position.PNG" class="Exemplo">
+        
+        </div> <!--Fim introdução-->
+
+        <div class="Content"> <!--Inicio conteudo estático-->
+            <p class="Title">Estático</p>
+
+            <p> O estático é a definição padrão dos elementos, sendo assim, não é necessário aplicar com o position. </p>
+
+            <img src="Imagens/Static.PNG" style="border: 5px green ridge; border-radius: 30px;">
+        </div> <!--Fim conteudo estático-->
+        
+        <div class="Content">  <!--Inicio conteudo relativo-->
+            <p class="Title">Relativo</p>
+
+            <p>o relativo é aplicado para que possa alterar a posição do elemento.</p>
+            <p>Assim que definido como relativo ou uma das duas próximas opções abaixo, é necessário aplicar o atributo de posição, que são <u>Left</u> <u>top</u> <u>Buttom</u> e <u>Right</u>.</p>
+            <img src="Imagens/Relative.PNG" style="border: 5px green ridge; border-radius: 30px;">
+        </div> <!--Fim conteudo relativo-->
+
+        <div class="Content"> <!--Inicio conteudo absoluto-->
+            <p class="Title">Absoluto</p>
+
+            <p>O absoluto trabalha em um fluxo diferente do padrão. Isso significa que ele pode ser posicionado sem influenciar outros elementos, ficando por trás deles (Semelhante ao float). </p>
+
+
+            <img src="Imagens/Absoluto.PNG " class="Absolute"  style="border: 5px green ridge; border-radius: 30px;">
+        </div> <!--Fim conteudo absoluto-->
+        
+        <div class="Content">  <!--Inicio conteudo fixo-->
+            <p class="Title">Fixo</p>
+            
+            <p>Deve ser utilizado para que o elemento acompanhe aa rolagem da terra, também funciona em outro fluxo.</p>
+
+            <p>Veja ao lado um exemplo de fixo.</p>
+            <img src="Imagens/Fixed.PNG" style="border: 5px green ridge; border-radius: 30px;">
+        </div> <!--Fim conteudo fixo-->
+
+        <div class="Clear"></div>
+        <div class="Fixed"> <u>Esse é um exemplo de fixo</u> </div>
+    </div>  
+
+    <div style="color: white; text-align: center; padding: 10px;"> Gabriel Limone - Todos os direitos reservados</div>
+    
+</body>
+</html>
