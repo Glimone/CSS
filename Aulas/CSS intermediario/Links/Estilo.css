@@ -1,0 +1,19 @@
+Body {
+    background-color: black;
+     }
+
+     #General {
+        color: white;
+        font-size: 25px;
+        font-family: cursive;
+        padding: 20px;
+             }
+    
+    #Title {
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 30px;
+        text-align: Center;
+        color: red;
+           }
+    

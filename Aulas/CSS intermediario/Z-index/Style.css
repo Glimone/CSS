@@ -1,0 +1,72 @@
+Body {
+    background-color: black;
+     }
+
+#General {
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+    padding: 20px;
+         }
+
+#Title {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px;
+    text-align: Center;
+    color: red;
+       }
+
+.Zindex {
+    z-index: 1;
+    border: blue 5px solid;
+    border-radius: 10px;
+    position: absolute;
+    right: 530px;
+    top: 32%;
+        }
+
+.Content1 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 450px;
+    border: blue 5px solid;
+    border-radius: 20px;
+    z-index: 3;
+    color: red;
+         }
+
+.Content2 {
+    background-color: teal;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 580px;
+    bottom: 100px;
+    border: teal 5px solid;
+    border-radius: 20px;
+    z-index: 1;
+    color: red;
+    font-size: 20px;
+          }
+
+.Content3 {
+    background-color: khaki;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 650px;
+    bottom: 200px;
+    border: khaki 5px solid;
+    border-radius: 20px;
+    z-index: 2;
+    color: red;
+          }
+
+#Direitos {
+    color: white;
+    font-family: fantasy;
+    text-align: Center;
+          }
