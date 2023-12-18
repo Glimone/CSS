@@ -1,23 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links</title>
     <link rel="stylesheet" type="TexT/css" href="Style.css">
 </head>
+
 <body>
+
+
+    <!--Os estados dos links são:-->
+    <!--Link não visitado, link visitado, Link hover (Altera a cor ao passar mouse), Link active (Ao clicar ou segurar, cor altera)-->
     <div id="General">
-        <div id="Title"> 
-        Formatação de links 
+        <div id="Title">
+            Formatação de links
         </div>
 
         <div>
-            <p>Nessa aula, iremos explorar o método de colocar um elemento sobre o outro e definir a ordem do que ficará sobre.</p>
-            <p>Isso é feito com o atributo css <u>Z-index</u>:</p>
-            <img src="Imagens/Zindex.png" class="Zindex">
-            <p style="padding: 20px 0px 0px 0px;">A numeração do Z-index em ordem descrescente define quem ficará por cima. Ou seja, se o número for maior, esse irá se sobrepor.</p>
+            <p>
+                Como já vimos, é possível formatarmos tags diretamente, por seletores ou não, uma delas é a tag de link:
+            </p>
+
+            <img src="Imagens/a.PNG" Id="Image" style="left: 80px; top: 180px;">
+            <br>
+            <p>
+                Porém, é possível realizar uma formatação mais complexa em outras 3 estados, que você verá abaixo.
+            </p>
         </div>
+        <br>
         <hr>
+
+        <div> <!--Inicio das explicações-->
+           OBS: O exemplo dado anteriormente é o padrão, dado como <u>Link não visitado</u>. 
+           <p>Usaremos projetos anteriores como links, para a formatação dos exemplos.</p>        
+            <div class="Content" style="bottom: 0px;">
+                <p class="Subtitle">
+                    Links não visitados
+                </p>    
+                Se trata do exemplo anterior. O link ficará com uma cor padrão quando não visitado.
+                <p>Exemplo:</p>
+
+                <a href="../Z-index/Z-index.html">Aula de Block e inline</a>
+            </div>
+
+            <div class="Content" style="left: 250px; bottom: 325px;">
+                <p class="Subtitle">
+                    Links visitados
+                </p>    
+                Utilizado para aplicar diferenças no link quando ele já tiver sido visitado.
+                <p>Estado e exemplo:</p>
+                <img src="Imagens/visited.PNG" class="Expimage">
+               
+
+        
+
+            </div>
+            
+            <div class="Content" style="left: 500px;  bottom:650px">
+                <p class="Subtitle">
+                    Hover Link
+                </p>
+                Utilizado para aplicar alguma diferença quando passar o mouse pelo link.
+                <p>Estado e exemplo:</p>
+                <img src="Imagens/hover.PNG" class="Expimage">
+            </div>
+
+            <div class="Content" style="left: 750px;  bottom: 975px">
+                <p class="Subtitle">
+                    Active link
+                </p>
+
+                Utilizado para realizar a alterção do link, como por exemplo a cor, ao clicar ou segurar ele.
+                <p>Estado e exemplo:</p>
+                <img src="Imagens/hover.PNG" class="Expimage">
+            </div>
+            
+            <div class="Clear">
+                <p>De todos os citados, o <u>visited</u> na maioria das vezes possui a mesma formatação do principal (link). </p> 
+                <p>Abaixo, veja os elementos aplicados no menu que criei.</p>
+            
+            </div>
+
+            <div id="Menu">
+                
+                <a href="../Z-index/Z-index.html">Z-index</a> | <a href="../Posicionamento/Static_Relative.html">Posicionamento</a> | <a href="../Elementos flutuantes/Float_Clear.html">Flutuantes</a> | <a href="../Modelos de caixa - Copia/Modelos_Caixa.html">Modelos de caixa</a>
+
+            </div>
+        </div> <!--Fim das explicações.-->
+    
+    </div>
 </body>
+
 </html>

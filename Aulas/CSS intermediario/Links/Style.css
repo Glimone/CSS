@@ -1,19 +1,88 @@
 Body {
     background-color: black;
-     }
+}
 
-     #General {
-        color: white;
-        font-size: 25px;
-        font-family: cursive;
-        padding: 20px;
-             }
+#General {
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+    padding: 20px;
     
-    #Title {
-        font-size: 30px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin: 30px;
-        text-align: Center;
-        color: red;
-           }
+
+#Title {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px;
+    text-align: Center;
+    color: red;
+}
+
+#Image {
+    border: gold 5px ridge;
+    border-radius: 10px;
+    position:absolute;
+    width: 120px;
+}
+
+.Content {
+    background-color: #3C66E8;
+    border: #3CA9E8 4px ridge;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    font-size: 15px;
+    padding: 10px;
+    float: left;
+    margin: 10px;
     
+}
+
+.Subtitle {
+    color: red;
+    text-decoration: Underline;
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.Clear {
+    clear: both;
+}
+          /*Link não visitado, link visitado, Link hover (Altera a cor ao passar mouse), Link active (Ao clicar ou segurar, cor altera) */
+
+.Expimage {
+        border: gold 5px ridge;
+        border-radius: 10px;
+        width: 120px;
+}
+
+#Menu {
+    text-align: center;
+    margin: 50px;
+    padding: 20px -10px 20px -10px;
+    
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+a:link {
+    color: #E31BE3;
+}
+
+a:visited {
+    color: #E31BE3;
+}
+
+a:hover {
+    background-color: gray;
+    
+}
+
+a:active {
+    background-color: yellow;
+    color: green;
+
+}
