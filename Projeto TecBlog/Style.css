@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    background-color: #CFD0DE;
+    font-family: trebuchet, Helvetica, sans-serif;
+}
+
+
+/* Inicio Menu*/
+#header {
+    background-color: #D5A50E; 
+    text-align: center;
+}
+
+#title {
+    font-size: 25px;
+    font-family:monospace;
+    font-weight: 900;
+    padding: 30px;
+}
+
+h1 {
+    display: inline;
+    color: #373144;
+}
+
+#twhite {
+    color: white;
+    font-size: 2em;
+}
+
+#menu {
+    color: white;
+    font-family: cursive;
+    font-size:20px;
+    font-weight: 900;
+    padding: 0px 0px 35px 0px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+
+a:hover {
+    background-color: gray;
+    color: #373144;
+}
+/*Fim do menu*/
