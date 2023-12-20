@@ -42,7 +42,7 @@ h1 {
     padding: 0px 0px 35px 0px;
 }
 
-a:link, a:visited {
+ #menu a:link, #menu a:visited {
     text-decoration: none;
     color: white;
     padding: 7px;
@@ -50,7 +50,7 @@ a:link, a:visited {
 }
 
 
-a:hover {
+ #menu a:hover {
     background-color: gray;
     color: #373144;
 }
@@ -98,4 +98,86 @@ p {
     font-family: cursive;
     font-weight: bold;
 
+}
+
+.news {
+    float: right;
+    position: absolute;
+    left: 1100px;
+    top: 20px;
+    background-color: white;
+    border: 3px white ridge;
+    border-radius: 7px;
+    width: 250px;
+    height: 250px;
+}
+
+.news p {
+    padding: 2px 10px 1px 10px;
+}
+
+
+
+#rtitle {
+    background-color: gray;
+    color: #373144;
+    border: 3px gray ridge;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.category {
+    float: right;
+    position: absolute;
+    left: 1100px;
+    top: 280px;
+    background-color: white;
+    border: 3px white ridge;
+    border-radius: 7px;
+    width: 250px;
+    height: 250px;
+}
+
+
+.Subcategory a:link, .Subcategory a:visited {
+    padding: 2px 0px 4px 10px;
+    display: block;
+    color: gold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Subcategory a:hover {
+    color: blue;
+    background-color: #D5A50E;
+}
+
+.Subcategory a:active {
+    color: #D5A50E;
+    background-color: blue; 
+}
+
+.clear {
+    clear: both;
+}
+
+.Leiamais a:link, .Leiamais a:visited {
+    text-decoration: none;
+    color: gold;
+    padding: 0px 0px 2px 15px;
+    font-size: 13px;
+
+}
+
+.hide-text {
+    display: none;
+}
+
+.read-more-btn {
+    cursor: pointer;
+    color: gold;
+    text-decoration: underline;
+    margin-bottom: 15px;
 }
