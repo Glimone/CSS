@@ -1,0 +1,28 @@
+#Seta li {
+    background-image: url(./Imagens/Hovermenu.PNG);
+    background-size: 200px;
+    border: 2px red ridge;
+    list-style-type: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    text-indent: 10px;
+    line-height: 40px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+    padding: 0px 0px 0px 30px;
+}
+
+#Seta li:hover {
+    background-image: url(./Imagens/menu.PNG);
+    
+}
+
+#Seta a:active {
+    color: blue;
+}
+
+
